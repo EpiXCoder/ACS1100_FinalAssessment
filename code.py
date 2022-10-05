@@ -22,7 +22,7 @@ def load_data (filename):
 
         # Creating dictionary
         client_profiles[user_name] = password, full_name, balance
-
+    infile.close()
     return client_profiles
 
 
