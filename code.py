@@ -64,7 +64,7 @@ def display_info (client_info):
 def get_login():
     '''
     A function that prompts for username and password from the user and checks against user dictionary to validate the inouts.
-    It only allows maximum of 3 login attempts.
+    It only allows maximum of 4 login attempts.
     if the login is successful, it calls the 'display_info' function.    
     '''
     client_info = None
